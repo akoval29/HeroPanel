@@ -22,12 +22,12 @@
   "filters": [
     {
       "name": "all",
-      "label": "Всі",
+      "label": "Все",
       "className": "btn-outline-dark"
     },
     {
       "name": "fire",
-      "label": "Вогонь",
+      "label": "Огонь",
       "className": "btn-danger"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "wind",
-      "label": "Вітер",
+      "label": "Ветер",
       "className": "btn-success"
     },
     {
