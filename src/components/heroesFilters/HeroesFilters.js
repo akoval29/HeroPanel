@@ -9,6 +9,7 @@ import {
   filtersFetchingError,
   activeFilterChanged,
 } from "../../actions";
+
 import Spinner from "../spinner/Spinner";
 
 const HeroesFilters = () => {
@@ -20,7 +21,7 @@ const HeroesFilters = () => {
 
   useEffect(() => {
     dispatch(filtersFetching());
-    request("http://localhost:3001/filters")
+    request("http://localhost:3011/filters")
       .then((data) => dispatch(filtersFetched(data)))
       .catch(() => dispatch(filtersFetchingError()));
 
