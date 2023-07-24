@@ -2,7 +2,7 @@ import HeroesList from "../heroesList/HeroesList";
 import HeroesAddForm from "../heroesAddForm/HeroesAddForm";
 import HeroesFilters from "../heroesFilters/HeroesFilters";
 
-import "./app.css";
+import "./app.scss";
 
 const App = () => {
   return (
